@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.photo{
+  width: 200px;
+  height: 350px;
+  border-radius: 5%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Info-container{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #282c34;
+}
+.Info-name{
+  color: white;
+  margin-bottom: 0px;
+}
+.profession{
+
+  color: rgb(196, 141, 1);
+  font-weight: 0.5em;
+}
+.Info-container a{
+  color: white;
+  text-decoration: none;
+}
+.Info-container a:hover{
+  color: rgb(196, 141, 1);
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
+  margin-top: 10px;
+}
+.buttons button{
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+.buttons button:hover{
+  background-color: rgb(196, 141, 1);
   color: white;
 }
+.Info-linkden{
+  background-color: royalblue;
+  color: white;
+}
+.about-container{
+  padding: 0% 10% 0% 10%;
+  background-color: #282c34;
+  color: white;
+}
+.interests-container{
+  padding: 1% 10% 0% 10%;
+  background-color: #282c34;
+  color: white;
+}
+.Footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: auto;
+ 
 
-.App-link {
-  color: #61dafb;
+}
+.Footer-container h1{
+  margin-left: 30px;
+  color: white;
+}
+.Footer-container a{
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 70px;
+}
+.Footer-container a:hover{
+  color: rgb(196, 141, 1);
+  background-color: #282c34;
+}
+.Footer-Icons{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+.Footer-Icons a:hover:nth-child(1) {
+  color: #47c8ff; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Footer-Icons a:hover:nth-child(2) {
+  color:white;
+  background-color: rgb(0, 0, 255); 
+}
+
+.Footer-Icons a:hover:nth-child(3) {
+  color: #f031f0;
+}
+
+.Footer-Icons a:hover:nth-child(4) {
+  color: white;
 }
